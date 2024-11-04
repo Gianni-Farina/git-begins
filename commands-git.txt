@@ -3,3 +3,11 @@ pour cloner : git clone "url"
 pour push on doit: git add "fichier.txt"
 	           git commit -m "simple fichier txt contenant rien"
                    git push
+
+pour créer une branche: git branch "nom de la branche"
+pour se déplacer de branche en branche: git checkout "nom de la branche"
+
+pour créer et se déplacer directement dans cette branche: git checkout -b "nom de la branche"
+pour déplacer un fichier dans une autre branche: git checkout "nom de la branche possèdant le fichier" "nom du fichier"
+
+pour push la branche: git push -u origin "nom de la branche"
