@@ -1,0 +1,5 @@
+pour cloner : git clone "url"
+
+pour push on doit: git add "fichier.txt"
+	           git commit -m "simple fichier txt contenant rien"
+                   git push
